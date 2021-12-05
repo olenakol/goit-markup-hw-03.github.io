@@ -1,7 +1,7 @@
 :root {
   --text-main: #757575;
-  --link: #212121;
-  --link-hover: #2196f3;
+  --text-2: #212121;
+  --text-3: #2196f3;
   --white: #ffffff; }
 
 body {
@@ -55,7 +55,7 @@ li {
   list-style: none; }
 
 a {
-  color: var(--link);
+  color: var(--text-2);
   text-decoration: none;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -63,7 +63,7 @@ a {
   transition: all 0.4s ease-in-out; }
   a:hover {
     text-decoration: none;
-    color: var(--link-hover); }
+    color: var(--text-3); }
 
 img {
   max-width: 100%;
@@ -268,7 +268,7 @@ main {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--text-2);
     margin-bottom: 50px; }
   .team .team__list {
     display: -webkit-box;
@@ -281,7 +281,7 @@ main {
             justify-content: space-between; }
     .team .team__list .team__item {
       display: block;
-      background-color: #ffffff;
+      background-color: var(--white);
       -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
               box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
       border-radius: 0px 0px 4px 4px;
@@ -302,7 +302,7 @@ main {
         font-size: 16px;
         line-height: 1.18;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--text-main);
         text-align: center;
         margin: 0; }
 
@@ -331,11 +331,11 @@ main {
         text-align: center;
         letter-spacing: 0.03em;
         padding: 6px 22px;
-        color: #212121;
+        color: var(--text-2);
         border: none; }
         .portfolio .portfolio__filter .filter__item .filter__btn:hover {
-          background-color: #2196f3;
-          color: #fff; }
+          background-color: var(--text-3);
+          color: var(--white); }
   .portfolio .portfolio__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -347,7 +347,7 @@ main {
             justify-content: space-between; }
     .portfolio .portfolio__list .portfolio__item {
       width: 32%;
-      background-color: #ffffff;
+      background-color: var(--white);
       border: 1px solid #eeeeee;
       padding-bottom: 20px;
       margin-bottom: 30px; }
@@ -360,14 +360,14 @@ main {
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
-        color: #212121;
+        color: var(--text-2);
         margin-bottom: 1px;
         padding: 0 15px 0 24px; }
       .portfolio .portfolio__list .portfolio__item .portfolio__text {
         font-size: 16px;
         line-height: 1.875;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--text-main);
         margin: 0;
         padding: 0 24px; }
 
