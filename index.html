@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Sen:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/modern-normalize.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <nav class="navbar">
+                    <a class="navbar__logo" href="index.html"><span>Web</span>Studio</a>
+                    <div class="collapse navbar_collapse" id="navbarToggler">
+                        <ul class="navbar__nav nav">
+                            <li class="nav__item">
+                                <a class="nav__link" href="index.html">Студия</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="portfolio.html">Портфолио</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <ul class="header__address">
+                    <li class="nav__item">
+                        <a class="nav__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section hero">
+            <div class="container">
+                <h1>Эффективные решения для вашего бизнеса</h1>
+                <button type="button" class="btn-main">Заказать услугу</button>
+            </div>
+        </section>
+        <section class="section cards">
+            <div class="container">
+                <h2>Наши ценности</h2>
+                <ul class="cards__list">
+                    <li class="cards__item">
+                        <h3 class="cards__title">Внимание к деталям</h3>
+                        <p class="cards__description">Идейные соображения, а также начало повседневной работы по
+                            формированию позиции.</p>
+                    </li>
+                    <li class="cards__item">
+                        <h3 class="cards__title">Пунктуальность</h3>
+                        <p class="cards__description">Задача организации, в особенности же рамки и место обучения кадров
+                            влечет за собой.</p>
+                    </li>
+                    <li class="cards__item">
+                        <h3 class="cards__title">Планирование</h3>
+                        <p class="cards__description">Равным образом консультация с широким активом в значительной
+                            степени обуславливает.</p>
+                    </li>
+                    <li class="cards__item">
+                        <h3 class="cards__title">Современные технологии</h3>
+                        <p class="cards__description">Значимость этих проблем настолько очевидна, что реализация
+                            плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section process">
+            <div class="container">
+                <h2>Чем мы занимаемся</h2>
+                <ul class="process__list">
+                    <li class="process__item">
+                        <img src="./images/workprocess-1.jpg" alt="Work process with kaybord" width="350"
+                            class="process__img">
+                    </li>
+                    <li class="process__item">
+                        <img src="./images/workProcess-2.jpg" alt="Work process with phone" width="350"
+                            class="process__img">
+                    </li>
+                    <li class="process__item">
+                        <img src="./images/workprocess-3.jpg" alt="Work process with tablet" width="350"
+                            class="process__img">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section team">
+            <div class="container">
+                <h2>Наша команда</h2>
+                <ul class="team__list">
+                    <li class="team__item">
+                        <img src="./images/teamMember-1.jpg" alt="Team member" width="350" class="team__img">
+                        <h3 class="team__member">Игорь Демьяненко</h3>
+                        <p class="team__position">Product Designer</p>
+                    </li>
+                    <li class="team__item">
+                        <img src="./images/teamMember-2.jpg" alt="Team member" width="350" class="team__img">
+                        <h3 class="team__member">Ольга Репина</h3>
+                        <p class="team__position">Frontend Developer</p>
+                    </li>
+                    <li class="team__item">
+                        <img src="./images/teamMember-3.jpg" alt="Team member" width="350" class="team__img">
+                        <h3 class="team__member">Николай Тарасов</h3>
+                        <p class="team__position">Marketing</p>
+                    </li>
+                    <li class="team__item">
+                        <img src="./images/teamMember-4.jpg" alt="Team member" width="350" class="team__img">
+                        <h3 class="team__member">Михаил Ермаков</h3>
+                        <p class="team__position">UI Designer</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__block">
+                <a class="footer__logo" href="index.html"><span>Web</span>Studio</a>
+                <address class="footer__address">
+                    <p class="footer__text">г. Киев, пр-т Леси Украинки, 26</p>
+                    <a href="mailto:info@example.com" class="footer__link">info@example.com</a>
+                    <a href="tel:+380991111111" class="footer__link">+38 099 111 11 11</a>
+                </address>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
