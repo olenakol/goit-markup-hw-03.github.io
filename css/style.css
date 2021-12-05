@@ -61,7 +61,7 @@ a {
           box-shadow: none;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out; }
-  a:hover {
+  a:hover, a:focus {
     text-decoration: none;
     color: var(--text-3); }
 
@@ -151,7 +151,9 @@ main {
       line-height: 16px;
       letter-spacing: 0.02em;
       color: #212121; }
-      .header .nav__item .nav__link:hover {
+      .header .nav__item .nav__link_active {
+        color: #2196f3; }
+      .header .nav__item .nav__link:hover, .header .nav__item .nav__link:focus {
         color: #2196f3; }
   .header .header__address {
     display: -webkit-box;
@@ -162,7 +164,7 @@ main {
     margin-left: auto; }
     .header .header__address .nav__item .nav__link {
       color: #757575; }
-      .header .header__address .nav__item .nav__link:hover {
+      .header .header__address .nav__item .nav__link:hover, .header .header__address .nav__item .nav__link:focus {
         color: #2196f3; }
 
 .hero {
@@ -201,7 +203,7 @@ main {
   max-width: 100%;
   margin: auto;
   border: none; }
-  .btn-main:hover {
+  .btn-main:hover, .btn-main:focus {
     background-color: #757575; }
 
 .cards {
@@ -333,7 +335,7 @@ main {
         padding: 6px 22px;
         color: var(--text-2);
         border: none; }
-        .portfolio .portfolio__filter .filter__item .filter__btn:hover {
+        .portfolio .portfolio__filter .filter__item .filter__btn:hover, .portfolio .portfolio__filter .filter__item .filter__btn:focus {
           background-color: var(--text-3);
           color: var(--white); }
   .portfolio .portfolio__list {
@@ -407,5 +409,5 @@ main {
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 6px; }
-    .footer .footer__block .footer__link:hover {
+    .footer .footer__block .footer__link:hover, .footer .footer__block .footer__link:focus {
       color: #fff; }
